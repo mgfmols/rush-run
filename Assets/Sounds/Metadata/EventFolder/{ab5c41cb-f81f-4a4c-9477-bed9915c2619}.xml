@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{ab5c41cb-f81f-4a4c-9477-bed9915c2619}">
+		<property name="name">
+			<value>WIMP</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9f151643-3fed-4ed2-bc56-874621302dec}</destination>
+		</relationship>
+	</object>
+</objects>

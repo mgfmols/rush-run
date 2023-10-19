@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Bank" id="{e565a3ea-6e84-472d-81bd-b13c3c71b4e2}">
+		<property name="name">
+			<value>WIMP</value>
+		</property>
+		<relationship name="folder">
+			<destination>{bb251c06-2f68-4af8-b816-9f9aff9e652c}</destination>
+		</relationship>
+	</object>
+</objects>

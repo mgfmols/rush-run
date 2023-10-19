@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{f9c1b948-6ca1-456b-bc9e-0d23e203fe8f}">
+		<property name="name">
+			<value>Underwater</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5bba7423-2eee-4558-a469-f3639e3938b6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1b517eaf-4475-48db-9a59-4f0f55a6fd43}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1b517eaf-4475-48db-9a59-4f0f55a6fd43}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>False</value>
+			<value>True</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

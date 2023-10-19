@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EffectPreset" id="{273b19eb-2a20-4a8f-82f2-039b46d7efd3}">
+		<property name="name">
+			<value>Spatializer</value>
+		</property>
+		<relationship name="folder">
+			<destination>{953f863c-6cd1-42eb-adac-3056c7befa50}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{2e6fbe71-a777-43ba-9576-632649e56776}</destination>
+		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{2e6fbe71-a777-43ba-9576-632649e56776}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="maximumDistance">
+			<value>300</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="userLFELevel">
+			<value>-15.5</value>
+		</property>
+	</object>
+</objects>

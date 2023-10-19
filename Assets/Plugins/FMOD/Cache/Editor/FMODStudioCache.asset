@@ -1,0 +1,636 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5876675537762445054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Water
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Water
+  Guid:
+    Data1: -1037546083
+    Data2: 1257953968
+    Data3: -629606985
+    Data4: -190837635
+  Banks:
+  - {fileID: 1079253348896400517}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 150
+  MaxDistance: 200
+  Length: 11764
+--- !u!114 &-5216719024064479713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/Velocity
+  m_EditorClassIdentifier: 
+  Name: Velocity
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 50
+  ID:
+    data1: 2136667316
+    data2: 1702495623
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3385416202010025944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Nature/Forest
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Nature/Forest
+  Guid:
+    Data1: 1077156207
+    Data2: 1096446548
+    Data3: -450795897
+    Data4: 719154868
+  Banks:
+  - {fileID: 5826400546240199310}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3347316035664196842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WIMP/Click
+  m_EditorClassIdentifier: 
+  Path: event:/WIMP/Click
+  Guid:
+    Data1: 496406170
+    Data2: 1150906044
+    Data3: 862544019
+    Data4: -234216226
+  Banks:
+  - {fileID: 5649736278473391443}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2456910308368717862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/GroundType
+  m_EditorClassIdentifier: 
+  Name: GroundType
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 2
+  ID:
+    data1: 408156292
+    data2: 1691903841
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Grass
+  - Farmland
+  - Path
+  - Wood
+  Exists: 1
+--- !u!114 &-2218439792504195602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WIMP/PowerUp/PowerUpDenied
+  m_EditorClassIdentifier: 
+  Path: event:/WIMP/PowerUp/PowerUpDenied
+  Guid:
+    Data1: -4585036
+    Data2: 1177463412
+    Data3: 633905039
+    Data4: 1112523643
+  Banks:
+  - {fileID: 5649736278473391443}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-919904531672790399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Jump/JumpStart
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Jump/JumpStart
+  Guid:
+    Data1: 1798520359
+    Data2: 1151036731
+    Data3: 1875327410
+    Data4: -969319522
+  Banks:
+  - {fileID: 7451832253521263674}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-591923440531580769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sounds/Build/Desktop/Effects.bank
+  Name: Effects
+  StudioPath: bank:/Environment/Effects
+  lastModified: 637856135850489944
+  FileSizes:
+  - Name: Desktop
+    Value: 257280
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 6676405271389850210}
+  - {fileID: 4483470931431641920}
+  - {fileID: 7451832253521263674}
+  - {fileID: 5437589073110061762}
+  - {fileID: 1079253348896400517}
+  - {fileID: 5826400546240199310}
+  - {fileID: 5649736278473391443}
+  - {fileID: -591923440531580769}
+  EditorEvents:
+  - {fileID: 2418701508725518173}
+  - {fileID: -919904531672790399}
+  - {fileID: 2973336543417985074}
+  - {fileID: -5876675537762445054}
+  - {fileID: -3385416202010025944}
+  - {fileID: 1796672509979519968}
+  - {fileID: 7080436362553555612}
+  - {fileID: 4136668823881385406}
+  - {fileID: -3347316035664196842}
+  - {fileID: 5810572748874306905}
+  - {fileID: -2218439792504195602}
+  - {fileID: 3240579027409424863}
+  - {fileID: 2050319975730136209}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 5437589073110061762}
+  StringsBanks:
+  - {fileID: 6676405271389850210}
+  cacheTime: 637856135850492363
+  cacheVersion: 10
+--- !u!114 &1079253348896400517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Water.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sounds/Build/Desktop/Water.bank
+  Name: Water
+  StudioPath: bank:/Environment/Water
+  lastModified: 637853937963304438
+  FileSizes:
+  - Name: Desktop
+    Value: 158240
+  Exists: 1
+--- !u!114 &1796672509979519968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WIMP/Countdown/CountdownEnd
+  m_EditorClassIdentifier: 
+  Path: event:/WIMP/Countdown/CountdownEnd
+  Guid:
+    Data1: -1044134395
+    Data2: 1098571057
+    Data3: 1090782642
+    Data4: 99301791
+  Banks:
+  - {fileID: 5649736278473391443}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2050319975730136209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Wind
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Wind
+  Guid:
+    Data1: 135064907
+    Data2: 1299763034
+    Data3: -1823501165
+    Data4: 1172213836
+  Banks:
+  - {fileID: -591923440531580769}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5216719024064479713}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21669
+--- !u!114 &2418701508725518173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footsteps/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footsteps/Footsteps
+  Guid:
+    Data1: -1221576668
+    Data2: 1175413110
+    Data3: 1625702040
+    Data4: -914330302
+  Banks:
+  - {fileID: 4483470931431641920}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -2456910308368717862}
+  - {fileID: 6665206626434033755}
+  MinDistance: 1
+  MaxDistance: 2.8
+  Length: 0
+--- !u!114 &2973336543417985074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Jump/JumpLand
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Jump/JumpLand
+  Guid:
+    Data1: 1907973979
+    Data2: 1340778476
+    Data3: -1547915361
+    Data4: 1688781294
+  Banks:
+  - {fileID: 7451832253521263674}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3240579027409424863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WIMP/ClickBack
+  m_EditorClassIdentifier: 
+  Path: event:/WIMP/ClickBack
+  Guid:
+    Data1: 1175410407
+    Data2: 1314329004
+    Data3: -1050241124
+    Data4: -1179865105
+  Banks:
+  - {fileID: 5649736278473391443}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 466
+--- !u!114 &4136668823881385406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WIMP/Countdown/CountdownBeep
+  m_EditorClassIdentifier: 
+  Path: event:/WIMP/Countdown/CountdownBeep
+  Guid:
+    Data1: -2057686186
+    Data2: 1107933005
+    Data3: -1248662618
+    Data4: 229155863
+  Banks:
+  - {fileID: 5649736278473391443}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4483470931431641920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Footsteps.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sounds/Build/Desktop/Footsteps.bank
+  Name: Footsteps
+  StudioPath: bank:/Player/Footsteps
+  lastModified: 637853937962924423
+  FileSizes:
+  - Name: Desktop
+    Value: 99584
+  Exists: 1
+--- !u!114 &5437589073110061762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sounds/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637847726587015416
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
+--- !u!114 &5649736278473391443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WIMP.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sounds/Build/Desktop/WIMP.bank
+  Name: WIMP
+  StudioPath: bank:/WIMP
+  lastModified: 637853937962994466
+  FileSizes:
+  - Name: Desktop
+    Value: 56224
+  Exists: 1
+--- !u!114 &5810572748874306905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WIMP/FinalTime
+  m_EditorClassIdentifier: 
+  Path: event:/WIMP/FinalTime
+  Guid:
+    Data1: 874248613
+    Data2: 1179648548
+    Data3: 1050523278
+    Data4: -948588575
+  Banks:
+  - {fileID: 5649736278473391443}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5826400546240199310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Nature.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sounds/Build/Desktop/Nature.bank
+  Name: Nature
+  StudioPath: bank:/Environment/Nature
+  lastModified: 637853937962964411
+  FileSizes:
+  - Name: Desktop
+    Value: 698080
+  Exists: 1
+--- !u!114 &6665206626434033755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Underwater
+  m_EditorClassIdentifier: 
+  Name: Underwater
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2413270457
+    data2: 981479164
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - False
+  - True
+  Exists: 1
+--- !u!114 &6676405271389850210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sounds/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637856135850492363
+  FileSizes:
+  - Name: Desktop
+    Value: 1804
+  Exists: 1
+--- !u!114 &7080436362553555612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WIMP/ButtonPop
+  m_EditorClassIdentifier: 
+  Path: event:/WIMP/ButtonPop
+  Guid:
+    Data1: -1883978208
+    Data2: 1189181502
+    Data3: -1161528683
+    Data4: 936131424
+  Banks:
+  - {fileID: 5649736278473391443}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7451832253521263674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Jump.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sounds/Build/Desktop/Jump.bank
+  Name: Jump
+  StudioPath: bank:/Player/Jump
+  lastModified: 637847726587015416
+  FileSizes:
+  - Name: Desktop
+    Value: 2864
+  Exists: 1
